@@ -1,0 +1,45 @@
+{
+  "name": "@kellerkinder/stylelint-config",
+  "version": "0.1.0",
+  "description": "Kellerkinder Stylelint configuration",
+  "main": "index.js",
+  "keywords": [
+    "kellerkinder",
+    "k10r",
+    "stylelint",
+    "stylelintconfig",
+    "config",
+    "css",
+    "scss",
+    "tailwindcss",
+    "styleguide"
+  ],
+  "author": "Kellerkinder GmbH",
+  "contributors": [
+    {
+      "name": "Rico Herwig",
+      "email": "r.herwig@kellerkinder.de"
+    }
+  ],
+  "dependencies": {
+    "stylelint-config-standard": "^22.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 13.0.0"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kellerkinderDE/stylelint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/kellerkinderDE/stylelint-config/issues"
+  },
+  "homepage": "https://www.kellerkinder.de",
+  "license": "MIT"
+}
