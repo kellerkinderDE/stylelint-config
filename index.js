@@ -1,7 +1,9 @@
 module.exports = {
     extends: ['stylelint-config-standard'],
+    plugins: ['stylelint-scss'],
     rules: {
-        'at-rule-no-unknown': [
+        'at-rule-no-unknown': null,
+        'scss/at-rule-no-unknown': [
             true,
             {
                 ignoreAtRules: [
@@ -13,15 +15,14 @@ module.exports = {
                 ],
             },
         ],
-        'declaration-block-trailing-semicolon': null,
-        'declaration-empty-line-before': [
-            'never',
+        'color-hex-length': [
+            'short',
             {
-                except: [
-                    'first-nested',
-                ],
+                severity: 'warning',
             },
         ],
+        'declaration-block-trailing-semicolon': null,
+        'declaration-empty-line-before': 'never',
         'no-descending-specificity': null,
         'selector-pseudo-element-colon-notation': null,
         indentation: [

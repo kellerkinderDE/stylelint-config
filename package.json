@@ -1,6 +1,6 @@
 {
   "name": "@kellerkinder/stylelint-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Kellerkinder Stylelint configuration",
   "main": "index.js",
   "keywords": [
@@ -22,7 +22,8 @@
     }
   ],
   "dependencies": {
-    "stylelint-config-standard": "^22.0.0"
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-scss": "^3.21.0"
   },
   "peerDependencies": {
     "stylelint": ">= 13.0.0"

@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/%40kellerkinder%2Fstylelint-config.svg)](https://badge.fury.io/js/%40kellerkinder%2Fstylelint-config)
 
-This package provides the Kellerkinder Stylelint configuration supporting preprocessors as well as [TailwindCSS](https://tailwindcss.com).
+This package provides the Kellerkinder Stylelint configuration supporting SCSS as well as [TailwindCSS](https://tailwindcss.com).
 It is based on the [Stylelint Standard](https://github.com/stylelint/stylelint-config-standard)
 with slight alterations.
 
