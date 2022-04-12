@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2022-04-12
+### Changed
+- Update peer dependencies and stylelint packages
+
 ## [1.0.0] - 2021-09-23
 ### Added
 - SCSS support
@@ -17,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial implementation including TailwindCSS support
 
-[Unreleased]: https://github.com/kellerkinderDE/stylelint-config/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/kellerkinderDE/stylelint-config/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/kellerkinderDE/stylelint-config/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/kellerkinderDE/stylelint-config/compare/0.1.0...1.0.0
 [0.1.0]: https://github.com/kellerkinderDE/stylelint-config/releases/tag/0.1.0
